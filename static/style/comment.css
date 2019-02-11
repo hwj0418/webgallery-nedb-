@@ -1,0 +1,46 @@
+.comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
+    margin:auto ;
+}
+
+.coomments.comment_ratio{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.author{
+    width: 80px;
+    align-content: flex-end;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    flex-direction: column;
+}
+
+.comment_author{
+    flex-direction: column;
+    font-size: 30px;
+}
+
+.comment_date{
+    font-size: 15px;
+}
+
+.comment_content{
+    width: 400px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.switch_comment{
+    display: flex;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+}
